@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PlantAI 🌿
 
-## Getting Started
+AI-powered medicinal plant identification platform.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Plant image upload
+- AI plant identification
+- Scientific name detection
+- Confidence score analysis
+- Medicinal plant information
+- Modern responsive interface
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Backend
+- FastAPI
+- Python
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+PlantAI/
+├── frontend/
+├── backend/
+├── README.md
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Scope
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Future Enhancements
 
-## Deploy on Vercel
+* Advanced toxicity analysis to determine whether a plant is safe, toxic, or poisonous.
+* AI-generated medicinal and healthcare recommendations.
+* Detailed plant descriptions and traditional Ayurvedic uses.
+* Farmer-focused insights such as cultivation benefits and agricultural applications.
+* Student learning mode with educational information about plant species.
+* Support for Ayurvedic practitioners by providing medicinal properties and herbal references.
+* Improved plant recognition accuracy for rare and regional plant species.
+* Plant scan history and analytics dashboard.
+* Multi-language support for Indian regional languages.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+
+Katha Biramane

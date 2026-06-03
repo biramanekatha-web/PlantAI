@@ -1,3 +1,5 @@
+from urllib import response
+
 from fastapi import APIRouter, UploadFile, File
 import shutil
 import os
@@ -53,6 +55,8 @@ async def upload_plant_image(file: UploadFile = File(...)):
             headers=headers,
             files=files
         )
+        print("STATUS CODE:", response.status_code)
+        print("RAW RESPONSE:", response.text)
 
         result = response.json()
 
